@@ -1,0 +1,6 @@
+{
+  "name": "FairPlay",
+  "description": "Aplicación web interactiva para la gestión de torneos deportivos escolares con marcadores en vivo, estadísticas y tablas de posiciones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

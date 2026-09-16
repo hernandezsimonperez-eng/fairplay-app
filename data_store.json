@@ -1,0 +1,4814 @@
+{
+  "tournaments": [
+    {
+      "id": "tourn-pingpong-juvenil",
+      "name": "VI TORNEO RELÁMPAGO DE TENIS DE MESA MIXTO PRE-JUVENIL",
+      "sport": "tenis_mesa",
+      "category": "8°, 9°, 10°, 11° y Profes",
+      "description": "Colegio San Felipe Neri • Líderes para la paz. 4 Grupos (A, B, C, D) + Cuartos de Final (Cruzados) + Semifinales y Gran Final. Sets a 11 puntos (2 de 3 sets), alargue deuce (10-10) con ventaja de 2 puntos, y rotación de saque cada 2 puntos.",
+      "status": "active",
+      "venue": "Mesas de Tenis de Mesa - Colegio San Felipe Neri (Bogotá)",
+      "createdAt": "2026-08-20",
+      "hasGroups": true,
+      "groups": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "rules": {
+        "pointsForWin": 3,
+        "pointsForDraw": 0,
+        "pointsForLoss": 0,
+        "matchDurationMinutes": 15,
+        "maxSets": 3,
+        "pointsPerSet": 11,
+        "twoPointAdvantage": true,
+        "serveRotationPoints": 2,
+        "deuceServeRotationPoints": 1,
+        "registrationFee": 5000
+      }
+    },
+    {
+      "id": "tourn-volley-prejuvenil",
+      "name": "TORNEO RELÁMPAGO VOLEIBOL PRE-JUVENIL 2026",
+      "sport": "voleibol",
+      "category": "Pre-Juvenil (Grupo U)",
+      "description": "Colegio San Felipe Neri • Torneo Relámpago de Voleibol Pre-Juvenil. Grupo Único (U) con partidos en descansos escolares y Gran Final el 25 de Septiembre. Sets reglamentarios a 25 puntos con ventaja de 2 puntos.",
+      "status": "active",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "createdAt": "2026-08-25",
+      "hasGroups": true,
+      "groups": [
+        "U"
+      ],
+      "rules": {
+        "pointsForWin": 3,
+        "pointsForDraw": 0,
+        "pointsForLoss": 0,
+        "matchDurationMinutes": 20,
+        "maxSets": 3,
+        "pointsPerSet": 25,
+        "twoPointAdvantage": true,
+        "registrationFee": 5000
+      }
+    },
+    {
+      "id": "tourn-volley-juvenil-mixto",
+      "name": "TORNEO RELÁMPAGO VOLEIBOL JUVENIL MIXTO 2026",
+      "sport": "voleibol",
+      "category": "Juvenil Mixto (Grupos A y B)",
+      "description": "Colegio San Felipe Neri • Torneo Relámpago de Voleibol Juvenil Mixto. Grupo A (5 equipos) y Grupo B (4 equipos) + Fase Final con Llave 1 (1A vs 2B), Llave 2 (1B vs 2A) y Gran Final el 25 de Septiembre.",
+      "status": "active",
+      "venue": "Cancha Principal de Voleibol",
+      "createdAt": "2026-08-25",
+      "hasGroups": true,
+      "groups": [
+        "A",
+        "B"
+      ],
+      "rules": {
+        "pointsForWin": 3,
+        "pointsForDraw": 0,
+        "pointsForLoss": 0,
+        "matchDurationMinutes": 25,
+        "maxSets": 3,
+        "pointsPerSet": 25,
+        "twoPointAdvantage": true,
+        "registrationFee": 5000
+      }
+    },
+    {
+      "id": "tourn-futbol-mini",
+      "name": "TORNEO FÚTBOL SAN FELIPE NERI 2026 - MIXTO MINI",
+      "sport": "futbol",
+      "category": "Mixto Categoría Mini (Transición y Primero)",
+      "description": "Colegio San Felipe Neri • Torneo Escolar de Fútbol Categoría Mini Mixto (Transición y 1°). Partidos de ida y vuelta disputados en los descansos escolares.",
+      "status": "active",
+      "venue": "Cancha Infantil San Felipe Neri",
+      "createdAt": "2026-08-01",
+      "rules": {
+        "pointsForWin": 3,
+        "pointsForDraw": 1,
+        "pointsForLoss": 0,
+        "matchDurationMinutes": 20,
+        "registrationFee": 5000
+      }
+    },
+    {
+      "id": "tourn-futbol-junior-masc",
+      "name": "TORNEO FÚTBOL SAN FELIPE NERI 2026 - MASCULINO JUNIOR",
+      "sport": "futbol",
+      "category": "Masculino Categoría Junior (2° a 5°)",
+      "description": "Colegio San Felipe Neri • Torneo Escolar de Fútbol Categoría Junior Masculino (2°, 3°, 4° y 5°). Cuadrangular escolar con partidos en descansos.",
+      "status": "active",
+      "venue": "Cancha Central San Felipe Neri",
+      "createdAt": "2026-08-01",
+      "rules": {
+        "pointsForWin": 3,
+        "pointsForDraw": 1,
+        "pointsForLoss": 0,
+        "matchDurationMinutes": 25,
+        "registrationFee": 5000
+      }
+    },
+    {
+      "id": "tourn-futbol-junior-fem",
+      "name": "TORNEO FÚTBOL SAN FELIPE NERI 2026 - FEMENINO JUNIOR",
+      "sport": "futbol",
+      "category": "Femenino Categoría Junior (2° a 5°)",
+      "description": "Colegio San Felipe Neri • Torneo Escolar de Fútbol Categoría Junior Femenino (2°, 3°, 4° y 5°). Cuadrangular escolar con partidos en descansos.",
+      "status": "active",
+      "venue": "Cancha Central San Felipe Neri",
+      "createdAt": "2026-08-01",
+      "rules": {
+        "pointsForWin": 3,
+        "pointsForDraw": 1,
+        "pointsForLoss": 0,
+        "matchDurationMinutes": 25,
+        "registrationFee": 5000
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "tt-a1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Alejandro Rosas",
+      "grade": "9A",
+      "captainName": "Alejandro Rosas",
+      "color": "#10b981",
+      "avatarBadge": "🏓",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-a1",
+          "teamId": "tt-a1",
+          "name": "Alejandro Rosas",
+          "number": 1,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "9A",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-a2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "J. Penagos Peña",
+      "grade": "11A",
+      "captainName": "J. Penagos Peña",
+      "color": "#059669",
+      "avatarBadge": "🏓",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-a2",
+          "teamId": "tt-a2",
+          "name": "J. Penagos Peña",
+          "number": 2,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11A",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-a3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Edward Pinilla",
+      "grade": "11B",
+      "captainName": "Edward Pinilla",
+      "color": "#047857",
+      "avatarBadge": "🏓",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-a3",
+          "teamId": "tt-a3",
+          "name": "Edward Pinilla",
+          "number": 3,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-a4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Johan Soriano",
+      "grade": "11B",
+      "captainName": "Johan Soriano",
+      "color": "#0d9488",
+      "avatarBadge": "🏓",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-a4",
+          "teamId": "tt-a4",
+          "name": "Johan Soriano",
+          "number": 4,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-a5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "David Gutiérrez",
+      "grade": "9B",
+      "captainName": "David Gutiérrez",
+      "color": "#14b8a6",
+      "avatarBadge": "🏓",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-a5",
+          "teamId": "tt-a5",
+          "name": "David Gutiérrez",
+          "number": 5,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "9B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-b1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Mateo Gutiérrez",
+      "grade": "9A",
+      "captainName": "Mateo Gutiérrez",
+      "color": "#3b82f6",
+      "avatarBadge": "🏓",
+      "group": "B",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-b1",
+          "teamId": "tt-b1",
+          "name": "Mateo Gutiérrez",
+          "number": 1,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "9A",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-b2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Gabriel Valderrama",
+      "grade": "11A",
+      "captainName": "Gabriel Valderrama",
+      "color": "#2563eb",
+      "avatarBadge": "🏓",
+      "group": "B",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-b2",
+          "teamId": "tt-b2",
+          "name": "Gabriel Valderrama",
+          "number": 2,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11A",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-b3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Andrés Felipe Moreno",
+      "grade": "11B",
+      "captainName": "Andrés Felipe Moreno",
+      "color": "#1d4ed8",
+      "avatarBadge": "🏓",
+      "group": "B",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-b3",
+          "teamId": "tt-b3",
+          "name": "Andrés Felipe Moreno",
+          "number": 3,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11B",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-b4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Wilson Rodríguez",
+      "grade": "11B",
+      "captainName": "Wilson Rodríguez",
+      "color": "#60a5fa",
+      "avatarBadge": "🏓",
+      "group": "B",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-b4",
+          "teamId": "tt-b4",
+          "name": "Wilson Rodríguez",
+          "number": 4,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11B",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-b5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "J. Andrés Aponte",
+      "grade": "9B",
+      "captainName": "J. Andrés Aponte",
+      "color": "#0284c7",
+      "avatarBadge": "🏓",
+      "group": "B",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-b5",
+          "teamId": "tt-b5",
+          "name": "J. Andrés Aponte",
+          "number": 5,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "9B",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-c1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Santiago Carreño",
+      "grade": "11A",
+      "captainName": "Santiago Carreño",
+      "color": "#f59e0b",
+      "avatarBadge": "🏓",
+      "group": "C",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-c1",
+          "teamId": "tt-c1",
+          "name": "Santiago Carreño",
+          "number": 1,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11A",
+          "group": "C",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-c2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Simón Hernández",
+      "grade": "10A",
+      "captainName": "Simón Hernández",
+      "color": "#d97706",
+      "avatarBadge": "🏓",
+      "group": "C",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-c2",
+          "teamId": "tt-c2",
+          "name": "Simón Hernández",
+          "number": 2,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "10A",
+          "group": "C",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-c3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Nicolás Castillo",
+      "grade": "11B",
+      "captainName": "Nicolás Castillo",
+      "color": "#b45309",
+      "avatarBadge": "🏓",
+      "group": "C",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-c3",
+          "teamId": "tt-c3",
+          "name": "Nicolás Castillo",
+          "number": 3,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11B",
+          "group": "C",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-c4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Sergio Galarza",
+      "grade": "9B",
+      "captainName": "Sergio Galarza",
+      "color": "#fbbf24",
+      "avatarBadge": "🏓",
+      "group": "C",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-c4",
+          "teamId": "tt-c4",
+          "name": "Sergio Galarza",
+          "number": 4,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "9B",
+          "group": "C",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-c5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Leonardo Sierra",
+      "grade": "Profe",
+      "captainName": "Leonardo Sierra",
+      "color": "#f97316",
+      "avatarBadge": "🏓",
+      "group": "C",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-c5",
+          "teamId": "tt-c5",
+          "name": "Leonardo Sierra (Profe)",
+          "number": 5,
+          "positionOrRole": "Docente / Jugador",
+          "isCaptain": true,
+          "gradeOrSection": "Profe",
+          "group": "C",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-d1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Juan David Vergara",
+      "grade": "11A",
+      "captainName": "Juan David Vergara",
+      "color": "#8b5cf6",
+      "avatarBadge": "🏓",
+      "group": "D",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-d1",
+          "teamId": "tt-d1",
+          "name": "Juan David Vergara",
+          "number": 1,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11A",
+          "group": "D",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-d2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Juan Felipe Rueda",
+      "grade": "10A",
+      "captainName": "Juan Felipe Rueda",
+      "color": "#7c3aed",
+      "avatarBadge": "🏓",
+      "group": "D",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-d2",
+          "teamId": "tt-d2",
+          "name": "Juan Felipe Rueda",
+          "number": 2,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "10A",
+          "group": "D",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-d3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Miguel Castañeda",
+      "grade": "11B",
+      "captainName": "Miguel Castañeda",
+      "color": "#6d28d9",
+      "avatarBadge": "🏓",
+      "group": "D",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-d3",
+          "teamId": "tt-d3",
+          "name": "Miguel Castañeda",
+          "number": 3,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "11B",
+          "group": "D",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-d4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Wilson Higuera",
+      "grade": "9B",
+      "captainName": "Wilson Higuera",
+      "color": "#a855f7",
+      "avatarBadge": "🏓",
+      "group": "D",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-d4",
+          "teamId": "tt-d4",
+          "name": "Wilson Higuera",
+          "number": 4,
+          "positionOrRole": "Jugador Individual",
+          "isCaptain": true,
+          "gradeOrSection": "9B",
+          "group": "D",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tt-d5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "name": "Harold Mafla",
+      "grade": "Profe",
+      "captainName": "Harold Mafla",
+      "color": "#ec4899",
+      "avatarBadge": "🏓",
+      "group": "D",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-d5",
+          "teamId": "tt-d5",
+          "name": "Harold Mafla (Profe)",
+          "number": 5,
+          "positionOrRole": "Docente / Jugador",
+          "isCaptain": true,
+          "gradeOrSection": "Profe",
+          "group": "D",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-pj-8b",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "name": "Octavo B",
+      "grade": "8°B",
+      "captainName": "Mateo Gómez",
+      "color": "#3b82f6",
+      "avatarBadge": "🏐",
+      "group": "U",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-28",
+      "players": [
+        {
+          "id": "p-v8b-1",
+          "teamId": "vol-pj-8b",
+          "name": "Mateo Gómez",
+          "number": 4,
+          "positionOrRole": "Capitán / Rematador",
+          "isCaptain": true,
+          "gradeOrSection": "8°B",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8b-2",
+          "teamId": "vol-pj-8b",
+          "name": "Juan David Rivas",
+          "number": 7,
+          "positionOrRole": "Armador",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8b-3",
+          "teamId": "vol-pj-8b",
+          "name": "Santiago Morales",
+          "number": 10,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8b-4",
+          "teamId": "vol-pj-8b",
+          "name": "David Esteban Silva",
+          "number": 2,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8b-5",
+          "teamId": "vol-pj-8b",
+          "name": "Samuel Rojas",
+          "number": 9,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8b-6",
+          "teamId": "vol-pj-8b",
+          "name": "Nicolás Pardo",
+          "number": 11,
+          "positionOrRole": "Zaguero",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-pj-7a",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "name": "Voley Stars 7A",
+      "grade": "7°A",
+      "captainName": "Valeria Cárdenas",
+      "color": "#ec4899",
+      "avatarBadge": "⭐",
+      "group": "U",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-v7a-1",
+          "teamId": "vol-pj-7a",
+          "name": "Valeria Cárdenas",
+          "number": 5,
+          "positionOrRole": "Capitana / Armadora",
+          "isCaptain": true,
+          "gradeOrSection": "7°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v7a-2",
+          "teamId": "vol-pj-7a",
+          "name": "Camila Suárez",
+          "number": 3,
+          "positionOrRole": "Rematadora",
+          "isCaptain": false,
+          "gradeOrSection": "7°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v7a-3",
+          "teamId": "vol-pj-7a",
+          "name": "Mariana Duarte",
+          "number": 8,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "7°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v7a-4",
+          "teamId": "vol-pj-7a",
+          "name": "Tomás Bermúdez",
+          "number": 6,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "7°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v7a-5",
+          "teamId": "vol-pj-7a",
+          "name": "Sara Valentina Ruiz",
+          "number": 12,
+          "positionOrRole": "Zaguera",
+          "isCaptain": false,
+          "gradeOrSection": "7°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v7a-6",
+          "teamId": "vol-pj-7a",
+          "name": "Felipe Henao",
+          "number": 1,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "7°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-pj-crows-8a",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "name": "Crows 8A (Ruckert)",
+      "grade": "8°A",
+      "captainName": "Sebastián Ruckert",
+      "color": "#8b5cf6",
+      "avatarBadge": "🦅",
+      "group": "U",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-29",
+      "players": [
+        {
+          "id": "p-v8a-1",
+          "teamId": "vol-pj-crows-8a",
+          "name": "Sebastián Ruckert",
+          "number": 10,
+          "positionOrRole": "Capitán / Rematador",
+          "isCaptain": true,
+          "gradeOrSection": "8°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8a-2",
+          "teamId": "vol-pj-crows-8a",
+          "name": "Daniel Coronado",
+          "number": 7,
+          "positionOrRole": "Armador",
+          "isCaptain": false,
+          "gradeOrSection": "8°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8a-3",
+          "teamId": "vol-pj-crows-8a",
+          "name": "Martín Barreto",
+          "number": 4,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "8°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8a-4",
+          "teamId": "vol-pj-crows-8a",
+          "name": "Julián Ospina",
+          "number": 8,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "8°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8a-5",
+          "teamId": "vol-pj-crows-8a",
+          "name": "Luciana Vélez",
+          "number": 2,
+          "positionOrRole": "Zaguera",
+          "isCaptain": false,
+          "gradeOrSection": "8°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v8a-6",
+          "teamId": "vol-pj-crows-8a",
+          "name": "Esteban Cuervo",
+          "number": 5,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "8°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-pj-6a",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "name": "Sexto A",
+      "grade": "6°A",
+      "captainName": "Gabriel Arango",
+      "color": "#10b981",
+      "avatarBadge": "🏐",
+      "group": "U",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-v6a-1",
+          "teamId": "vol-pj-6a",
+          "name": "Gabriel Arango",
+          "number": 7,
+          "positionOrRole": "Capitán / Armador",
+          "isCaptain": true,
+          "gradeOrSection": "6°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v6a-2",
+          "teamId": "vol-pj-6a",
+          "name": "Salomé Pinzón",
+          "number": 9,
+          "positionOrRole": "Rematadora",
+          "isCaptain": false,
+          "gradeOrSection": "6°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v6a-3",
+          "teamId": "vol-pj-6a",
+          "name": "Emilio Castro",
+          "number": 3,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "6°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v6a-4",
+          "teamId": "vol-pj-6a",
+          "name": "Manuela Castaño",
+          "number": 4,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "6°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v6a-5",
+          "teamId": "vol-pj-6a",
+          "name": "Jerónimo Vega",
+          "number": 8,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "6°A",
+          "group": "U",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-v6a-6",
+          "teamId": "vol-pj-6a",
+          "name": "Sofía Montaño",
+          "number": 1,
+          "positionOrRole": "Zaguera",
+          "isCaptain": false,
+          "gradeOrSection": "6°A",
+          "group": "U",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-lmmdm-9b",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "L.M.M.D.M 9B",
+      "grade": "9°B",
+      "captainName": "Laura Mendoza",
+      "color": "#f59e0b",
+      "avatarBadge": "⚡",
+      "group": "A",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-30",
+      "players": [
+        {
+          "id": "p-vjm-9b-1",
+          "teamId": "vol-jm-lmmdm-9b",
+          "name": "Laura Mendoza",
+          "number": 10,
+          "positionOrRole": "Capitana / Armadora",
+          "isCaptain": true,
+          "gradeOrSection": "9°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-9b-2",
+          "teamId": "vol-jm-lmmdm-9b",
+          "name": "Martín Delgado",
+          "number": 7,
+          "positionOrRole": "Rematador",
+          "isCaptain": false,
+          "gradeOrSection": "9°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-9b-3",
+          "teamId": "vol-jm-lmmdm-9b",
+          "name": "Manuela Marín",
+          "number": 5,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "9°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-9b-4",
+          "teamId": "vol-jm-lmmdm-9b",
+          "name": "Daniel Moreno",
+          "number": 8,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "9°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-9b-5",
+          "teamId": "vol-jm-lmmdm-9b",
+          "name": "María Paula Díaz",
+          "number": 3,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "9°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-nucita-8b",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Nucita 8B",
+      "grade": "8°B",
+      "captainName": "Camilo Nucita",
+      "color": "#d97706",
+      "avatarBadge": "🍫",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-vjm-nuc-1",
+          "teamId": "vol-jm-nucita-8b",
+          "name": "Camilo Nucita",
+          "number": 9,
+          "positionOrRole": "Capitán / Rematador",
+          "isCaptain": true,
+          "gradeOrSection": "8°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-nuc-2",
+          "teamId": "vol-jm-nucita-8b",
+          "name": "Andrea Valderrama",
+          "number": 4,
+          "positionOrRole": "Armadora",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-nuc-3",
+          "teamId": "vol-jm-nucita-8b",
+          "name": "Felipe Carvajal",
+          "number": 6,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-nuc-4",
+          "teamId": "vol-jm-nucita-8b",
+          "name": "Juliana Restrepo",
+          "number": 2,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-nuc-5",
+          "teamId": "vol-jm-nucita-8b",
+          "name": "Juan Manuel Benítez",
+          "number": 11,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "8°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-exalumnos",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Exalumnos",
+      "grade": "Egresados",
+      "captainName": "Carlos Julio Mora",
+      "color": "#6366f1",
+      "avatarBadge": "🎓",
+      "group": "A",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-31",
+      "players": [
+        {
+          "id": "p-vjm-exa-1",
+          "teamId": "vol-jm-exalumnos",
+          "name": "Carlos Julio Mora",
+          "number": 1,
+          "positionOrRole": "Capitán / Opuesto",
+          "isCaptain": true,
+          "gradeOrSection": "Egresados",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-exa-2",
+          "teamId": "vol-jm-exalumnos",
+          "name": "Natalia Villamizar",
+          "number": 5,
+          "positionOrRole": "Armadora",
+          "isCaptain": false,
+          "gradeOrSection": "Egresados",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-exa-3",
+          "teamId": "vol-jm-exalumnos",
+          "name": "Juan Pablo Rincón",
+          "number": 8,
+          "positionOrRole": "Rematador",
+          "isCaptain": false,
+          "gradeOrSection": "Egresados",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-exa-4",
+          "teamId": "vol-jm-exalumnos",
+          "name": "Diana Marcela López",
+          "number": 7,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "Egresados",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-exa-5",
+          "teamId": "vol-jm-exalumnos",
+          "name": "Santiago Bernal",
+          "number": 12,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "Egresados",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-cholos-10b",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Los Cholos 10B",
+      "grade": "10°B",
+      "captainName": "Brayan Estiven Silva",
+      "color": "#ef4444",
+      "avatarBadge": "🔥",
+      "group": "A",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-vjm-cho-1",
+          "teamId": "vol-jm-cholos-10b",
+          "name": "Brayan Estiven Silva",
+          "number": 10,
+          "positionOrRole": "Capitán / Rematador",
+          "isCaptain": true,
+          "gradeOrSection": "10°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-cho-2",
+          "teamId": "vol-jm-cholos-10b",
+          "name": "Sebastián Cholo",
+          "number": 4,
+          "positionOrRole": "Armador",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-cho-3",
+          "teamId": "vol-jm-cholos-10b",
+          "name": "Valentina Forero",
+          "number": 3,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-cho-4",
+          "teamId": "vol-jm-cholos-10b",
+          "name": "Nicolás Quevedo",
+          "number": 9,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-cho-5",
+          "teamId": "vol-jm-cholos-10b",
+          "name": "Laura Sofía Gaitán",
+          "number": 6,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-foxys-11b",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Foxys 11B",
+      "grade": "11°B",
+      "captainName": "Mariana Fox",
+      "color": "#06b6d4",
+      "avatarBadge": "🦊",
+      "group": "A",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-31",
+      "players": [
+        {
+          "id": "p-vjm-fox-1",
+          "teamId": "vol-jm-foxys-11b",
+          "name": "Mariana Fox",
+          "number": 7,
+          "positionOrRole": "Capitana / Armadora",
+          "isCaptain": true,
+          "gradeOrSection": "11°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fox-2",
+          "teamId": "vol-jm-foxys-11b",
+          "name": "Samuel Cuervo",
+          "number": 11,
+          "positionOrRole": "Rematador",
+          "isCaptain": false,
+          "gradeOrSection": "11°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fox-3",
+          "teamId": "vol-jm-foxys-11b",
+          "name": "Daniela Albarracín",
+          "number": 2,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "11°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fox-4",
+          "teamId": "vol-jm-foxys-11b",
+          "name": "Juan Esteban Prado",
+          "number": 8,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "11°B",
+          "group": "A",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fox-5",
+          "teamId": "vol-jm-foxys-11b",
+          "name": "Gabriela Monroy",
+          "number": 5,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "11°B",
+          "group": "A",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-francelcitos-10b",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Los Francelcitos 10B",
+      "grade": "10°B",
+      "captainName": "Andrés Francel",
+      "color": "#10b981",
+      "avatarBadge": "🍀",
+      "group": "B",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-09-01",
+      "players": [
+        {
+          "id": "p-vjm-fra-1",
+          "teamId": "vol-jm-francelcitos-10b",
+          "name": "Andrés Francel",
+          "number": 4,
+          "positionOrRole": "Capitán / Armador",
+          "isCaptain": true,
+          "gradeOrSection": "10°B",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fra-2",
+          "teamId": "vol-jm-francelcitos-10b",
+          "name": "Kevin Santamaría",
+          "number": 9,
+          "positionOrRole": "Rematador",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fra-3",
+          "teamId": "vol-jm-francelcitos-10b",
+          "name": "Paula Andrea Ríos",
+          "number": 6,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fra-4",
+          "teamId": "vol-jm-francelcitos-10b",
+          "name": "Mateo Osorio",
+          "number": 8,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-fra-5",
+          "teamId": "vol-jm-francelcitos-10b",
+          "name": "Angie Tatiana Ruiz",
+          "number": 3,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "10°B",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-aura-11a",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "11 Aura 11A",
+      "grade": "11°A",
+      "captainName": "Aura Cristina Vega",
+      "color": "#a855f7",
+      "avatarBadge": "✨",
+      "group": "B",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-vjm-aur-1",
+          "teamId": "vol-jm-aura-11a",
+          "name": "Aura Cristina Vega",
+          "number": 10,
+          "positionOrRole": "Capitana / Armadora",
+          "isCaptain": true,
+          "gradeOrSection": "11°A",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-aur-2",
+          "teamId": "vol-jm-aura-11a",
+          "name": "David Alejandro Parra",
+          "number": 7,
+          "positionOrRole": "Rematador",
+          "isCaptain": false,
+          "gradeOrSection": "11°A",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-aur-3",
+          "teamId": "vol-jm-aura-11a",
+          "name": "Juliana Garzón",
+          "number": 1,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "11°A",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-aur-4",
+          "teamId": "vol-jm-aura-11a",
+          "name": "Nicolás Buitrago",
+          "number": 5,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "11°A",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-aur-5",
+          "teamId": "vol-jm-aura-11a",
+          "name": "Sofía Valenzuela",
+          "number": 8,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "11°A",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-berserkers-9a",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Los Berserkers 9A",
+      "grade": "9°A",
+      "captainName": "Kevin Berserker",
+      "color": "#dc2626",
+      "avatarBadge": "⚔️",
+      "group": "B",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-09-02",
+      "players": [
+        {
+          "id": "p-vjm-ber-1",
+          "teamId": "vol-jm-berserkers-9a",
+          "name": "Kevin Berserker",
+          "number": 9,
+          "positionOrRole": "Capitán / Rematador",
+          "isCaptain": true,
+          "gradeOrSection": "9°A",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-ber-2",
+          "teamId": "vol-jm-berserkers-9a",
+          "name": "Santiago Castrillón",
+          "number": 3,
+          "positionOrRole": "Armador",
+          "isCaptain": false,
+          "gradeOrSection": "9°A",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-ber-3",
+          "teamId": "vol-jm-berserkers-9a",
+          "name": "Natalia Cardona",
+          "number": 5,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "9°A",
+          "group": "B",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-ber-4",
+          "teamId": "vol-jm-berserkers-9a",
+          "name": "Juan Manuel Torres",
+          "number": 11,
+          "positionOrRole": "Opuesto",
+          "isCaptain": false,
+          "gradeOrSection": "9°A",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-ber-5",
+          "teamId": "vol-jm-berserkers-9a",
+          "name": "Daniela Giraldo",
+          "number": 2,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "9°A",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-jm-profesores",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "name": "Profesores",
+      "grade": "Docentes",
+      "captainName": "Profe Mauricio",
+      "color": "#2563eb",
+      "avatarBadge": "👨‍🏫",
+      "group": "B",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-09-03",
+      "players": [
+        {
+          "id": "p-vjm-pro-1",
+          "teamId": "vol-jm-profesores",
+          "name": "Profe Mauricio (Educ. Física)",
+          "number": 1,
+          "positionOrRole": "Capitán / Opuesto",
+          "isCaptain": true,
+          "gradeOrSection": "Docentes",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-pro-2",
+          "teamId": "vol-jm-profesores",
+          "name": "Profe Harold Mafla",
+          "number": 5,
+          "positionOrRole": "Rematador",
+          "isCaptain": false,
+          "gradeOrSection": "Docentes",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-pro-3",
+          "teamId": "vol-jm-profesores",
+          "name": "Profe Sandra Milena",
+          "number": 7,
+          "positionOrRole": "Armadora",
+          "isCaptain": false,
+          "gradeOrSection": "Docentes",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-pro-4",
+          "teamId": "vol-jm-profesores",
+          "name": "Profe Carlos Alberto",
+          "number": 4,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "Docentes",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-vjm-pro-5",
+          "teamId": "vol-jm-profesores",
+          "name": "Profe Claudia Marcela",
+          "number": 2,
+          "positionOrRole": "Líbero",
+          "isCaptain": false,
+          "gradeOrSection": "Docentes",
+          "group": "B",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-mini-transicion",
+      "tournamentId": "tourn-futbol-mini",
+      "name": "Transición",
+      "grade": "Transición",
+      "captainName": "Martín Pardo",
+      "color": "#f59e0b",
+      "avatarBadge": "🌟",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-03",
+      "players": [
+        {
+          "id": "p-fm-tra-1",
+          "teamId": "fut-mini-transicion",
+          "name": "Martín Pardo",
+          "number": 10,
+          "positionOrRole": "Capitán / Delantero",
+          "isCaptain": true,
+          "gradeOrSection": "Transición",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-tra-2",
+          "teamId": "fut-mini-transicion",
+          "name": "Luciana Gómez",
+          "number": 7,
+          "positionOrRole": "Mediocampista",
+          "isCaptain": false,
+          "gradeOrSection": "Transición",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-tra-3",
+          "teamId": "fut-mini-transicion",
+          "name": "Samuel Rojas",
+          "number": 1,
+          "positionOrRole": "Portero",
+          "isCaptain": false,
+          "gradeOrSection": "Transición",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-tra-4",
+          "teamId": "fut-mini-transicion",
+          "name": "Emilia Vélez",
+          "number": 4,
+          "positionOrRole": "Defensa",
+          "isCaptain": false,
+          "gradeOrSection": "Transición",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-tra-5",
+          "teamId": "fut-mini-transicion",
+          "name": "Thiago Castro",
+          "number": 9,
+          "positionOrRole": "Delantero",
+          "isCaptain": false,
+          "gradeOrSection": "Transición",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-mini-primero",
+      "tournamentId": "tourn-futbol-mini",
+      "name": "Primero",
+      "grade": "1°",
+      "captainName": "Samuel Valenzuela",
+      "color": "#3b82f6",
+      "avatarBadge": "🚀",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-fm-pri-1",
+          "teamId": "fut-mini-primero",
+          "name": "Samuel Valenzuela",
+          "number": 10,
+          "positionOrRole": "Capitán / Delantero",
+          "isCaptain": true,
+          "gradeOrSection": "1°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-pri-2",
+          "teamId": "fut-mini-primero",
+          "name": "Mariana Duarte",
+          "number": 8,
+          "positionOrRole": "Mediocampista",
+          "isCaptain": false,
+          "gradeOrSection": "1°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-pri-3",
+          "teamId": "fut-mini-primero",
+          "name": "Joaquín Mora",
+          "number": 1,
+          "positionOrRole": "Portero",
+          "isCaptain": false,
+          "gradeOrSection": "1°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-pri-4",
+          "teamId": "fut-mini-primero",
+          "name": "Isabella Forero",
+          "number": 3,
+          "positionOrRole": "Defensa",
+          "isCaptain": false,
+          "gradeOrSection": "1°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fm-pri-5",
+          "teamId": "fut-mini-primero",
+          "name": "Nicolás Benítez",
+          "number": 9,
+          "positionOrRole": "Delantero",
+          "isCaptain": false,
+          "gradeOrSection": "1°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-m-segundo",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "name": "Segundo",
+      "grade": "2°",
+      "captainName": "Sebastián Barreto",
+      "color": "#10b981",
+      "avatarBadge": "⚡",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-04",
+      "players": [
+        {
+          "id": "p-fjm-seg-1",
+          "teamId": "fut-jr-m-segundo",
+          "name": "Sebastián Barreto",
+          "number": 10,
+          "positionOrRole": "Capitán / Volante",
+          "isCaptain": true,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-seg-2",
+          "teamId": "fut-jr-m-segundo",
+          "name": "Camilo Pinzón",
+          "number": 9,
+          "positionOrRole": "Delantero",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-seg-3",
+          "teamId": "fut-jr-m-segundo",
+          "name": "Felipe Ospina",
+          "number": 1,
+          "positionOrRole": "Portero",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-seg-4",
+          "teamId": "fut-jr-m-segundo",
+          "name": "David Esteban Niño",
+          "number": 4,
+          "positionOrRole": "Defensa Central",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-seg-5",
+          "teamId": "fut-jr-m-segundo",
+          "name": "Tomás Arboleda",
+          "number": 7,
+          "positionOrRole": "Extremo",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-m-tercero",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "name": "Tercero",
+      "grade": "3°",
+      "captainName": "Juan Pablo Rincón",
+      "color": "#3b82f6",
+      "avatarBadge": "🏆",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-fjm-ter-1",
+          "teamId": "fut-jr-m-tercero",
+          "name": "Juan Pablo Rincón",
+          "number": 8,
+          "positionOrRole": "Capitán / Armador",
+          "isCaptain": true,
+          "gradeOrSection": "3°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-ter-2",
+          "teamId": "fut-jr-m-tercero",
+          "name": "Daniel Coronado",
+          "number": 11,
+          "positionOrRole": "Delantero",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-ter-3",
+          "teamId": "fut-jr-m-tercero",
+          "name": "Esteban Cuervo",
+          "number": 1,
+          "positionOrRole": "Portero",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-ter-4",
+          "teamId": "fut-jr-m-tercero",
+          "name": "Mateo Carvajal",
+          "number": 3,
+          "positionOrRole": "Lateral",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-ter-5",
+          "teamId": "fut-jr-m-tercero",
+          "name": "Jerónimo Silva",
+          "number": 5,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-m-cuarto",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "name": "Cuarto",
+      "grade": "4°",
+      "captainName": "Santiago Morales",
+      "color": "#f59e0b",
+      "avatarBadge": "🦁",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-05",
+      "players": [
+        {
+          "id": "p-fjm-cua-1",
+          "teamId": "fut-jr-m-cuarto",
+          "name": "Santiago Morales",
+          "number": 10,
+          "positionOrRole": "Capitán / Delantero",
+          "isCaptain": true,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-cua-2",
+          "teamId": "fut-jr-m-cuarto",
+          "name": "Andrés Felipe Ramos",
+          "number": 7,
+          "positionOrRole": "Extremo",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-cua-3",
+          "teamId": "fut-jr-m-cuarto",
+          "name": "Gabriel Henao",
+          "number": 1,
+          "positionOrRole": "Portero",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-cua-4",
+          "teamId": "fut-jr-m-cuarto",
+          "name": "Nicolás Quevedo",
+          "number": 2,
+          "positionOrRole": "Defensa Central",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-cua-5",
+          "teamId": "fut-jr-m-cuarto",
+          "name": "Lucas Valderrama",
+          "number": 6,
+          "positionOrRole": "Volante",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-m-quinto",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "name": "Quinto",
+      "grade": "5°",
+      "captainName": "Alejandro Vega",
+      "color": "#8b5cf6",
+      "avatarBadge": "🦅",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-fjm-qui-1",
+          "teamId": "fut-jr-m-quinto",
+          "name": "Alejandro Vega",
+          "number": 9,
+          "positionOrRole": "Capitán / Delantero",
+          "isCaptain": true,
+          "gradeOrSection": "5°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-qui-2",
+          "teamId": "fut-jr-m-quinto",
+          "name": "Diego Restrepo",
+          "number": 10,
+          "positionOrRole": "Enganche",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-qui-3",
+          "teamId": "fut-jr-m-quinto",
+          "name": "Kevin Santamaría",
+          "number": 1,
+          "positionOrRole": "Portero",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-qui-4",
+          "teamId": "fut-jr-m-quinto",
+          "name": "Martín Delgado",
+          "number": 4,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjm-qui-5",
+          "teamId": "fut-jr-m-quinto",
+          "name": "Samuel Rojas",
+          "number": 8,
+          "positionOrRole": "Lateral",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-f-segundo",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "name": "Segundo Femenino",
+      "grade": "2°",
+      "captainName": "Valeria Cárdenas",
+      "color": "#ec4899",
+      "avatarBadge": "🌸",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-04",
+      "players": [
+        {
+          "id": "p-fjf-seg-1",
+          "teamId": "fut-jr-f-segundo",
+          "name": "Valeria Cárdenas",
+          "number": 10,
+          "positionOrRole": "Capitana / Delantera",
+          "isCaptain": true,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-seg-2",
+          "teamId": "fut-jr-f-segundo",
+          "name": "Camila Suárez",
+          "number": 7,
+          "positionOrRole": "Extrema",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-seg-3",
+          "teamId": "fut-jr-f-segundo",
+          "name": "Luciana Vélez",
+          "number": 1,
+          "positionOrRole": "Portera",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-seg-4",
+          "teamId": "fut-jr-f-segundo",
+          "name": "Mariana Duarte",
+          "number": 4,
+          "positionOrRole": "Defensa",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-seg-5",
+          "teamId": "fut-jr-f-segundo",
+          "name": "Sara Valentina Ruiz",
+          "number": 8,
+          "positionOrRole": "Volante",
+          "isCaptain": false,
+          "gradeOrSection": "2°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-f-tercero",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "name": "Tercero Femenino",
+      "grade": "3°",
+      "captainName": "Andrea Valderrama",
+      "color": "#06b6d4",
+      "avatarBadge": "💎",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-fjf-ter-1",
+          "teamId": "fut-jr-f-tercero",
+          "name": "Andrea Valderrama",
+          "number": 8,
+          "positionOrRole": "Capitana / Mediocampista",
+          "isCaptain": true,
+          "gradeOrSection": "3°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-ter-2",
+          "teamId": "fut-jr-f-tercero",
+          "name": "Salomé Pinzón",
+          "number": 9,
+          "positionOrRole": "Delantera",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-ter-3",
+          "teamId": "fut-jr-f-tercero",
+          "name": "Manuela Castaño",
+          "number": 1,
+          "positionOrRole": "Portera",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-ter-4",
+          "teamId": "fut-jr-f-tercero",
+          "name": "Sofía Montaño",
+          "number": 2,
+          "positionOrRole": "Defensa",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-ter-5",
+          "teamId": "fut-jr-f-tercero",
+          "name": "Juliana Restrepo",
+          "number": 6,
+          "positionOrRole": "Extrema",
+          "isCaptain": false,
+          "gradeOrSection": "3°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-f-cuarto",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "name": "Cuarto Femenino",
+      "grade": "4°",
+      "captainName": "Daniela Albarracín",
+      "color": "#f97316",
+      "avatarBadge": "🔥",
+      "paymentStatus": "paid",
+      "paymentAmount": 5000,
+      "paymentDate": "2026-08-05",
+      "players": [
+        {
+          "id": "p-fjf-cua-1",
+          "teamId": "fut-jr-f-cuarto",
+          "name": "Daniela Albarracín",
+          "number": 10,
+          "positionOrRole": "Capitana / Delantera",
+          "isCaptain": true,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-cua-2",
+          "teamId": "fut-jr-f-cuarto",
+          "name": "Gabriela Monroy",
+          "number": 7,
+          "positionOrRole": "Volante",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-cua-3",
+          "teamId": "fut-jr-f-cuarto",
+          "name": "Paula Andrea Ríos",
+          "number": 1,
+          "positionOrRole": "Portera",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-cua-4",
+          "teamId": "fut-jr-f-cuarto",
+          "name": "Valentina Forero",
+          "number": 3,
+          "positionOrRole": "Defensa Central",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-cua-5",
+          "teamId": "fut-jr-f-cuarto",
+          "name": "Laura Sofía Gaitán",
+          "number": 5,
+          "positionOrRole": "Lateral",
+          "isCaptain": false,
+          "gradeOrSection": "4°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "fut-jr-f-quinto",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "name": "Quinto Femenino",
+      "grade": "5°",
+      "captainName": "Aura Cristina Vega",
+      "color": "#a855f7",
+      "avatarBadge": "👑",
+      "paymentStatus": "pending",
+      "paymentAmount": 5000,
+      "players": [
+        {
+          "id": "p-fjf-qui-1",
+          "teamId": "fut-jr-f-quinto",
+          "name": "Aura Cristina Vega",
+          "number": 10,
+          "positionOrRole": "Capitana / Delantera",
+          "isCaptain": true,
+          "gradeOrSection": "5°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-qui-2",
+          "teamId": "fut-jr-f-quinto",
+          "name": "Juliana Garzón",
+          "number": 9,
+          "positionOrRole": "Extrema",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-qui-3",
+          "teamId": "fut-jr-f-quinto",
+          "name": "Sofía Valenzuela",
+          "number": 1,
+          "positionOrRole": "Portera",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-qui-4",
+          "teamId": "fut-jr-f-quinto",
+          "name": "Natalia Cardona",
+          "number": 4,
+          "positionOrRole": "Central",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "paid",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        },
+        {
+          "id": "p-fjf-qui-5",
+          "teamId": "fut-jr-f-quinto",
+          "name": "Daniela Giraldo",
+          "number": 6,
+          "positionOrRole": "Mediocampista",
+          "isCaptain": false,
+          "gradeOrSection": "5°",
+          "paymentStatus": "pending",
+          "paymentAmount": 5000,
+          "stats": {
+            "goalsOrPoints": 0,
+            "matchesPlayed": 0
+          }
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "m-tt-r1-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a1",
+      "awayTeamId": "tt-a2",
+      "date": "2026-08-21",
+      "time": "1er desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-a1",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 7,
+          "winnerTeamId": "tt-a1"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 8,
+          "winnerTeamId": "tt-a1"
+        }
+      ],
+      "timerSeconds": 480,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b1",
+      "awayTeamId": "tt-b2",
+      "date": "2026-08-21",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-b1",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 6,
+          "winnerTeamId": "tt-b1"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 4,
+          "winnerTeamId": "tt-b1"
+        }
+      ],
+      "timerSeconds": 420,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c1",
+      "awayTeamId": "tt-c2",
+      "date": "2026-08-21",
+      "time": "1er desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
+      "currentSet": 3,
+      "winnerTeamId": "tt-c2",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 8,
+          "winnerTeamId": "tt-c1"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 6,
+          "awayScore": 11,
+          "winnerTeamId": "tt-c2"
+        },
+        {
+          "setNumber": 3,
+          "homeScore": 21,
+          "awayScore": 23,
+          "winnerTeamId": "tt-c2"
+        }
+      ],
+      "timerSeconds": 890,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d1",
+      "awayTeamId": "tt-d2",
+      "date": "2026-08-21",
+      "time": "1er desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-d2",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 9,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d2"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 7,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d2"
+        }
+      ],
+      "timerSeconds": 510,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a3",
+      "awayTeamId": "tt-a4",
+      "date": "2026-08-21",
+      "time": "2do desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-a3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 3,
+          "winnerTeamId": "tt-a3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 7,
+          "winnerTeamId": "tt-a3"
+        }
+      ],
+      "timerSeconds": 430,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-6",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b3",
+      "awayTeamId": "tt-b4",
+      "date": "2026-08-21",
+      "time": "2do desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-b3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 0,
+          "winnerTeamId": "tt-b3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 12,
+          "awayScore": 10,
+          "winnerTeamId": "tt-b3"
+        }
+      ],
+      "timerSeconds": 460,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-7",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c3",
+      "awayTeamId": "tt-c4",
+      "date": "2026-08-21",
+      "time": "2do desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-c3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 2,
+          "winnerTeamId": "tt-c3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 1,
+          "winnerTeamId": "tt-c3"
+        }
+      ],
+      "timerSeconds": 380,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r1-8",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "1ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d3",
+      "awayTeamId": "tt-d4",
+      "date": "2026-08-24",
+      "time": "2do desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
+      "currentSet": 3,
+      "winnerTeamId": "tt-d4",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 3,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d4"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 7,
+          "winnerTeamId": "tt-d3"
+        },
+        {
+          "setNumber": 3,
+          "homeScore": 4,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d4"
+        }
+      ],
+      "timerSeconds": 620,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a5",
+      "awayTeamId": "tt-a1",
+      "date": "2026-08-24",
+      "time": "1er desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b5",
+      "awayTeamId": "tt-b1",
+      "date": "2026-08-24",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c5",
+      "awayTeamId": "tt-c1",
+      "date": "2026-08-24",
+      "time": "1er desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-c1",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 8,
+          "awayScore": 11,
+          "winnerTeamId": "tt-c1"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 1,
+          "awayScore": 11,
+          "winnerTeamId": "tt-c1"
+        }
+      ],
+      "timerSeconds": 440,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d5",
+      "awayTeamId": "tt-d1",
+      "date": "2026-08-24",
+      "time": "1er desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
+      "currentSet": 3,
+      "winnerTeamId": "tt-d5",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 8,
+          "winnerTeamId": "tt-d5"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 6,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d1"
+        },
+        {
+          "setNumber": 3,
+          "homeScore": 11,
+          "awayScore": 9,
+          "winnerTeamId": "tt-d5"
+        }
+      ],
+      "timerSeconds": 670,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a2",
+      "awayTeamId": "tt-a3",
+      "date": "2026-08-24",
+      "time": "2do desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-a3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 3,
+          "awayScore": 11,
+          "winnerTeamId": "tt-a3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 6,
+          "awayScore": 11,
+          "winnerTeamId": "tt-a3"
+        }
+      ],
+      "timerSeconds": 390,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-6",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b2",
+      "awayTeamId": "tt-b3",
+      "date": "2026-08-24",
+      "time": "2do desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-b3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 5,
+          "awayScore": 11,
+          "winnerTeamId": "tt-b3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 7,
+          "awayScore": 11,
+          "winnerTeamId": "tt-b3"
+        }
+      ],
+      "timerSeconds": 430,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-7",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c2",
+      "awayTeamId": "tt-c3",
+      "date": "2026-08-24",
+      "time": "2do desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
+      "currentSet": 3,
+      "winnerTeamId": "tt-c3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 13,
+          "winnerTeamId": "tt-c3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 7,
+          "winnerTeamId": "tt-c2"
+        },
+        {
+          "setNumber": 3,
+          "homeScore": 7,
+          "awayScore": 11,
+          "winnerTeamId": "tt-c3"
+        }
+      ],
+      "timerSeconds": 710,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r2-8",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "2ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d2",
+      "awayTeamId": "tt-d3",
+      "date": "2026-08-24",
+      "time": "2do desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-d2",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 1,
+          "winnerTeamId": "tt-d2"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 2,
+          "winnerTeamId": "tt-d2"
+        }
+      ],
+      "timerSeconds": 310,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a4",
+      "awayTeamId": "tt-a5",
+      "date": "2026-08-26",
+      "time": "1er desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-a4",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 5,
+          "winnerTeamId": "tt-a4"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 8,
+          "winnerTeamId": "tt-a4"
+        }
+      ],
+      "timerSeconds": 430,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b4",
+      "awayTeamId": "tt-b5",
+      "date": "2026-08-26",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-b5",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 4,
+          "awayScore": 11,
+          "winnerTeamId": "tt-b5"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 4,
+          "awayScore": 11,
+          "winnerTeamId": "tt-b5"
+        }
+      ],
+      "timerSeconds": 360,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c4",
+      "awayTeamId": "tt-c5",
+      "date": "2026-08-26",
+      "time": "1er desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d4",
+      "awayTeamId": "tt-d5",
+      "date": "2026-08-26",
+      "time": "1er desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-d5",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 9,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d5"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 8,
+          "awayScore": 11,
+          "winnerTeamId": "tt-d5"
+        }
+      ],
+      "timerSeconds": 470,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a1",
+      "awayTeamId": "tt-a3",
+      "date": "2026-08-26",
+      "time": "2do desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-a3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 6,
+          "awayScore": 11,
+          "winnerTeamId": "tt-a3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 3,
+          "awayScore": 11,
+          "winnerTeamId": "tt-a3"
+        }
+      ],
+      "timerSeconds": 410,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-6",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b1",
+      "awayTeamId": "tt-b3",
+      "date": "2026-08-26",
+      "time": "2do desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-b3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 9,
+          "awayScore": 11,
+          "winnerTeamId": "tt-b3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 13,
+          "awayScore": 15,
+          "winnerTeamId": "tt-b3"
+        }
+      ],
+      "timerSeconds": 580,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-7",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c1",
+      "awayTeamId": "tt-c3",
+      "date": "2026-08-26",
+      "time": "2do desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
+      "currentSet": 2,
+      "winnerTeamId": "tt-c3",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 9,
+          "awayScore": 11,
+          "winnerTeamId": "tt-c3"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 10,
+          "awayScore": 12,
+          "winnerTeamId": "tt-c3"
+        }
+      ],
+      "timerSeconds": 500,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r3-8",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "3ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d1",
+      "awayTeamId": "tt-d3",
+      "date": "2026-08-26",
+      "time": "2do desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-d1",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 3,
+          "winnerTeamId": "tt-d1"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 8,
+          "winnerTeamId": "tt-d1"
+        }
+      ],
+      "timerSeconds": 430,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a2",
+      "awayTeamId": "tt-a4",
+      "date": "2026-08-28",
+      "time": "1er desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b2",
+      "awayTeamId": "tt-b4",
+      "date": "2026-08-28",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c2",
+      "awayTeamId": "tt-c4",
+      "date": "2026-08-31",
+      "time": "1er desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "currentSet": 2,
+      "winnerTeamId": "tt-c2",
+      "sets": [
+        {
+          "setNumber": 1,
+          "homeScore": 11,
+          "awayScore": 3,
+          "winnerTeamId": "tt-c2"
+        },
+        {
+          "setNumber": 2,
+          "homeScore": 11,
+          "awayScore": 8,
+          "winnerTeamId": "tt-c2"
+        }
+      ],
+      "timerSeconds": 380,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d2",
+      "awayTeamId": "tt-d4",
+      "date": "2026-08-31",
+      "time": "1er desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a4",
+      "awayTeamId": "tt-a1",
+      "date": "2026-08-28",
+      "time": "2do desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-6",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b4",
+      "awayTeamId": "tt-b1",
+      "date": "2026-08-28",
+      "time": "2do desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-7",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c4",
+      "awayTeamId": "tt-c1",
+      "date": "2026-08-28",
+      "time": "2do desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r4-8",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "4ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d4",
+      "awayTeamId": "tt-d1",
+      "date": "2026-08-28",
+      "time": "2do desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a2",
+      "awayTeamId": "tt-a5",
+      "date": "2026-09-01",
+      "time": "1er desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b2",
+      "awayTeamId": "tt-b5",
+      "date": "2026-09-01",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c2",
+      "awayTeamId": "tt-c5",
+      "date": "2026-09-01",
+      "time": "1er desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d2",
+      "awayTeamId": "tt-d5",
+      "date": "2026-09-01",
+      "time": "1er desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-5",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "A",
+      "homeTeamId": "tt-a3",
+      "awayTeamId": "tt-a5",
+      "date": "2026-09-01",
+      "time": "2do desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-6",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "B",
+      "homeTeamId": "tt-b3",
+      "awayTeamId": "tt-b5",
+      "date": "2026-09-01",
+      "time": "2do desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-7",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "C",
+      "homeTeamId": "tt-c3",
+      "awayTeamId": "tt-c5",
+      "date": "2026-09-01",
+      "time": "2do desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-r5-8",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "5ª Ronda",
+      "group": "D",
+      "homeTeamId": "tt-d3",
+      "awayTeamId": "tt-d5",
+      "date": "2026-09-01",
+      "time": "2do desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-cruz-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Llave 1 (Cuartos Cruzados)",
+      "bracketKey": "Llave 1",
+      "homeTeamId": "tt-a1",
+      "awayTeamId": "tt-c2",
+      "date": "2026-09-02",
+      "time": "1er desc.",
+      "venue": "Mesa 1 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-cruz-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Llave 2 (Cuartos Cruzados)",
+      "bracketKey": "Llave 2",
+      "homeTeamId": "tt-b1",
+      "awayTeamId": "tt-d2",
+      "date": "2026-09-02",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-cruz-3",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Llave 3 (Cuartos Cruzados)",
+      "bracketKey": "Llave 3",
+      "homeTeamId": "tt-c1",
+      "awayTeamId": "tt-a2",
+      "date": "2026-09-02",
+      "time": "1er desc.",
+      "venue": "Mesa 3 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-cruz-4",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Llave 4 (Cuartos Cruzados)",
+      "bracketKey": "Llave 4",
+      "homeTeamId": "tt-d1",
+      "awayTeamId": "tt-b2",
+      "date": "2026-09-02",
+      "time": "1er desc.",
+      "venue": "Mesa 4 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-semi-1",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Semifinal 1",
+      "bracketKey": "Semi 1",
+      "homeTeamId": "tt-a1",
+      "awayTeamId": "tt-c1",
+      "date": "2026-09-04",
+      "time": "1er desc.",
+      "venue": "Mesa de Honor - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-semi-2",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Semifinal 2",
+      "bracketKey": "Semi 2",
+      "homeTeamId": "tt-b1",
+      "awayTeamId": "tt-d1",
+      "date": "2026-09-04",
+      "time": "1er desc.",
+      "venue": "Mesa de Honor - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-3rd-place",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Definición 3er Puesto",
+      "bracketKey": "3er Puesto",
+      "homeTeamId": "tt-c1",
+      "awayTeamId": "tt-d1",
+      "date": "2026-09-04",
+      "time": "1er desc.",
+      "venue": "Mesa 2 - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-tt-final",
+      "tournamentId": "tourn-pingpong-juvenil",
+      "roundName": "Gran Final",
+      "bracketKey": "Final",
+      "homeTeamId": "tt-a1",
+      "awayTeamId": "tt-b1",
+      "date": "2026-09-04",
+      "time": "2do desc.",
+      "venue": "Mesa Principal Central - San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-1",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "1ª Fecha (1er Descanso)",
+      "group": "U",
+      "homeTeamId": "vol-pj-8b",
+      "awayTeamId": "vol-pj-7a",
+      "date": "2026-09-08",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-2",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "1ª Fecha (2do Descanso)",
+      "group": "U",
+      "homeTeamId": "vol-pj-crows-8a",
+      "awayTeamId": "vol-pj-6a",
+      "date": "2026-09-08",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-3",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "2ª Fecha (1er Descanso)",
+      "group": "U",
+      "homeTeamId": "vol-pj-crows-8a",
+      "awayTeamId": "vol-pj-8b",
+      "date": "2026-09-14",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-4",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "2ª Fecha (2do Descanso)",
+      "group": "U",
+      "homeTeamId": "vol-pj-7a",
+      "awayTeamId": "vol-pj-6a",
+      "date": "2026-09-14",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-5",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "3ª Fecha (1er Descanso)",
+      "group": "U",
+      "homeTeamId": "vol-pj-8b",
+      "awayTeamId": "vol-pj-6a",
+      "date": "2026-09-17",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-6",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "3ª Fecha (2do Descanso)",
+      "group": "U",
+      "homeTeamId": "vol-pj-7a",
+      "awayTeamId": "vol-pj-crows-8a",
+      "date": "2026-09-17",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vpj-final",
+      "tournamentId": "tourn-volley-prejuvenil",
+      "roundName": "Gran Final Pre-Juvenil (1° vs 2°)",
+      "bracketKey": "Final",
+      "homeTeamId": "vol-pj-8b",
+      "awayTeamId": "vol-pj-crows-8a",
+      "date": "2026-09-25",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-1",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 1 (1er Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-lmmdm-9b",
+      "awayTeamId": "vol-jm-nucita-8b",
+      "date": "2026-09-07",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-2",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 1 (2do Descanso)",
+      "group": "B",
+      "homeTeamId": "vol-jm-francelcitos-10b",
+      "awayTeamId": "vol-jm-aura-11a",
+      "date": "2026-09-07",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-3",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 2 (2do Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-exalumnos",
+      "awayTeamId": "vol-jm-cholos-10b",
+      "date": "2026-09-08",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-4",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 3 (1er Descanso)",
+      "group": "B",
+      "homeTeamId": "vol-jm-berserkers-9a",
+      "awayTeamId": "vol-jm-profesores",
+      "date": "2026-09-09",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-5",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 4 (1er Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-foxys-11b",
+      "awayTeamId": "vol-jm-lmmdm-9b",
+      "date": "2026-09-10",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-6",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 4 (2do Descanso)",
+      "group": "B",
+      "homeTeamId": "vol-jm-francelcitos-10b",
+      "awayTeamId": "vol-jm-berserkers-9a",
+      "date": "2026-09-10",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-7",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 5 (2do Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-nucita-8b",
+      "awayTeamId": "vol-jm-exalumnos",
+      "date": "2026-09-11",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-8",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 5 (1er Descanso)",
+      "group": "B",
+      "homeTeamId": "vol-jm-aura-11a",
+      "awayTeamId": "vol-jm-profesores",
+      "date": "2026-09-11",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-9",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 6 (1er Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-cholos-10b",
+      "awayTeamId": "vol-jm-foxys-11b",
+      "date": "2026-09-15",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-10",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 6 (2do Descanso)",
+      "group": "B",
+      "homeTeamId": "vol-jm-profesores",
+      "awayTeamId": "vol-jm-francelcitos-10b",
+      "date": "2026-09-15",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-11",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 7 (2do Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-lmmdm-9b",
+      "awayTeamId": "vol-jm-exalumnos",
+      "date": "2026-09-16",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-12",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 7 (1er Descanso)",
+      "group": "B",
+      "homeTeamId": "vol-jm-aura-11a",
+      "awayTeamId": "vol-jm-berserkers-9a",
+      "date": "2026-09-16",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-13",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 8 (1er Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-nucita-8b",
+      "awayTeamId": "vol-jm-cholos-10b",
+      "date": "2026-09-18",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-14",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 9 (1er Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-cholos-10b",
+      "awayTeamId": "vol-jm-lmmdm-9b",
+      "date": "2026-09-21",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-15",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 10 (1er Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-foxys-11b",
+      "awayTeamId": "vol-jm-nucita-8b",
+      "date": "2026-09-22",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-16",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Jornada 11 (2do Descanso)",
+      "group": "A",
+      "homeTeamId": "vol-jm-exalumnos",
+      "awayTeamId": "vol-jm-foxys-11b",
+      "date": "2026-09-23",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-semi1",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Semifinal Llave 1 (1° Grupo A vs 2° Grupo B)",
+      "bracketKey": "Semi 1",
+      "homeTeamId": "vol-jm-lmmdm-9b",
+      "awayTeamId": "vol-jm-aura-11a",
+      "date": "2026-09-25",
+      "time": "11:15 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-semi2",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Semifinal Llave 2 (1° Grupo B vs 2° Grupo A)",
+      "bracketKey": "Semi 2",
+      "homeTeamId": "vol-jm-francelcitos-10b",
+      "awayTeamId": "vol-jm-exalumnos",
+      "date": "2026-09-25",
+      "time": "11:45 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-vjm-final",
+      "tournamentId": "tourn-volley-juvenil-mixto",
+      "roundName": "Gran Final Voleibol Juvenil Mixto",
+      "bracketKey": "Final",
+      "homeTeamId": "vol-jm-lmmdm-9b",
+      "awayTeamId": "vol-jm-francelcitos-10b",
+      "date": "2026-09-25",
+      "time": "12:15 (2do Descanso)",
+      "venue": "Cancha Principal de Voleibol",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "currentSet": 1,
+      "sets": [],
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fmini-1",
+      "tournamentId": "tourn-futbol-mini",
+      "roundName": "Partido de Ida (2do Descanso)",
+      "homeTeamId": "fut-mini-transicion",
+      "awayTeamId": "fut-mini-primero",
+      "date": "2026-08-05",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Infantil San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fmini-2",
+      "tournamentId": "tourn-futbol-mini",
+      "roundName": "Partido de Vuelta (1er Descanso)",
+      "homeTeamId": "fut-mini-primero",
+      "awayTeamId": "fut-mini-transicion",
+      "date": "2026-08-13",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Infantil San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjm-1",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "roundName": "Jornada 1 (1er Descanso)",
+      "homeTeamId": "fut-jr-m-segundo",
+      "awayTeamId": "fut-jr-m-tercero",
+      "date": "2026-08-10",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjm-2",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "roundName": "Jornada 2 (1er Descanso)",
+      "homeTeamId": "fut-jr-m-tercero",
+      "awayTeamId": "fut-jr-m-segundo",
+      "date": "2026-08-12",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjm-3",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "roundName": "Jornada 3 (2do Descanso)",
+      "homeTeamId": "fut-jr-m-cuarto",
+      "awayTeamId": "fut-jr-m-quinto",
+      "date": "2026-08-14",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjm-4",
+      "tournamentId": "tourn-futbol-junior-masc",
+      "roundName": "Jornada 4 (2do Descanso)",
+      "homeTeamId": "fut-jr-m-quinto",
+      "awayTeamId": "fut-jr-m-cuarto",
+      "date": "2026-08-17",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjf-1",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "roundName": "Jornada 1 (2do Descanso)",
+      "homeTeamId": "fut-jr-f-segundo",
+      "awayTeamId": "fut-jr-f-tercero",
+      "date": "2026-08-10",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjf-2",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "roundName": "Jornada 2 (2do Descanso)",
+      "homeTeamId": "fut-jr-f-tercero",
+      "awayTeamId": "fut-jr-f-segundo",
+      "date": "2026-08-12",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjf-3",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "roundName": "Jornada 3 (2do Descanso)",
+      "homeTeamId": "fut-jr-f-cuarto",
+      "awayTeamId": "fut-jr-f-quinto",
+      "date": "2026-08-13",
+      "time": "11:30 (2do Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    },
+    {
+      "id": "m-fjf-4",
+      "tournamentId": "tourn-futbol-junior-fem",
+      "roundName": "Jornada 4 (1er Descanso)",
+      "homeTeamId": "fut-jr-f-quinto",
+      "awayTeamId": "fut-jr-f-cuarto",
+      "date": "2026-08-17",
+      "time": "09:30 (1er Descanso)",
+      "venue": "Cancha Central San Felipe Neri",
+      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "timerSeconds": 0,
+      "timerRunning": false,
+      "events": []
+    }
+  ]
+}
